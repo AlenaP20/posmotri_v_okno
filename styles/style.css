@@ -16,6 +16,9 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  display: flex;
+  justify-content: center;
+	align-items: center;
 }
 
 h1,
@@ -41,6 +44,7 @@ ol {
   padding: 133px 30px;
   display: flex;
   justify-content: space-between;
+  gap: 30px;
 }
 
 .result {
@@ -102,7 +106,6 @@ ol {
   font-style: normal;
   font-size: 18px;
   line-height: 21px;
-  margin-bottom: 5px;
 }
 
 .content__list-item {
@@ -169,6 +172,10 @@ ol {
 
 fieldset {
   border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 9px;
 }
 
 .search-form__checkbox-list {
@@ -260,7 +267,7 @@ input[type="text"]:hover + .search-form__label {
 
 .button {
   border: 1px solid #fff;
-  padding: 4px 73px;
+  padding: 6px 73px;
   color: #fff;
   font-family: inherit;
   font-weight: 700;
