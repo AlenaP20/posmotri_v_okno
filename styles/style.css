@@ -38,7 +38,7 @@ ol {
 }
 
 .content {
-  margin: 133px 30px;
+  padding: 133px 30px;
   display: grid;
   grid-template-columns: auto auto;
   gap: 30px;
